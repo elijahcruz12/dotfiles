@@ -16,7 +16,6 @@ VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
 
 plugins=(
     sudo
-    laravel
     npm
     vi-mode
     composer
@@ -150,5 +149,14 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
+
+# These aliases are for my nodejs workflow
+alias nd="npm run dev"
+alias ns="npm run start"
+alias nb="npm run build"
+alias nt="npm run test"
+alias ni="npm install"
+alias nis="npm install --save"
+alias nid="npm install --save-dev"
 
 # vim: nospell
