@@ -21,7 +21,6 @@ return {
   main = 'nvim-treesitter.configs',
   opts = {
     ensure_installed = {
-      'arduino',
       'bash',
       'comment',
       'css',
@@ -47,8 +46,6 @@ return {
       'phpdoc',
       'python',
       'regex',
-      'ruby',
-      'rust',
       'sql',
       'svelte',
       'typescript',
