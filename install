@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+DOTFILES=$( cd $(dirname "${BASH_SOURCE[0]}" ) && pwd)
+
+# Zsh
+rm $HOME/.zshrc
+ln -s $DOTFILES/zsh/zshrc $HOME/.zshrc
+
