@@ -19,6 +19,7 @@ return {
         { icon = '  ', desc = 'Find file               ', key = 'Space + f', action = 'Telescope find_files' },
         { icon = '  ', desc = 'Recent files            ', key = 'Space + h', action = 'Telescope oldfiles' },
         { icon = '  ', desc = 'Find Word               ', key = 'Space + g', action = 'Telescope live_grep' },
+        { icon = '  ', desc = 'Open Terminal           ', key = 'Ctrl + t ', action = 'Show Terminal'}
       },
       footer = { '' }
     },
