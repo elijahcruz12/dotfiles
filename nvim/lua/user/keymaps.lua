@@ -34,6 +34,16 @@ vim.keymap.set('i', ',,', '<Esc>A,<Esc>')
 -- Open the current file in the default program (on Mac this should just be just `open`).
 vim.keymap.set('n', '<leader>x', ':!xdg-open %<cr><cr>')
 
+-- Moving Between Buffers
+vim.keymap.set('n', '<C-[>', ':bp<CR>')
+vim.keymap.set('n', '<C-]>', ':bn<CR>')
+
+-- Close Buffer
+vim.keymap.set('n', '<A-n>', ':bd<CR>')
+
+-- Neotree open/toggle via <A-1>
+vim.keymap.set('n', '<A-1>', ':Neotree<CR>')
+
 -- Disable annoying command line thing.
 vim.keymap.set('n', 'q:', ':q<CR>')
 

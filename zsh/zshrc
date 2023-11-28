@@ -45,6 +45,7 @@ path=(
     $HOME/.config/composer/vendor/bin
     $HOME/.go/bin
     $HOME/.cargo/bin
+    $HOME/nvim-linux64/bin
     ./vendor/bin
     $path
 )
@@ -62,7 +63,7 @@ zstyle ':completion:*:complete:(cd|pushd):*' tag-order \
 
 alias vim="nvim"
 export EDITOR=vim
-export GIT_EDITOR=vim
+export GIT_EDITOR=nano
 export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
 export ARTISAN_OPEN_ON_MAKE_EDITOR=nvr
 export FZF_DEFAULT_COMMAND='ag -u -g ""'
@@ -161,5 +162,8 @@ alias nt="npm run test"
 alias ni="npm install"
 alias nis="npm install --save"
 alias nid="npm install --save-dev"
+
+# I add "cl" as an alias for clear because it just feels 10x  faster to clear
+alias cl="clear"
 
 # vim: nospell
