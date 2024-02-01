@@ -10,6 +10,10 @@ ln -s $DOTFILES/kitty $HOME/.config/kitty
 rm $HOME/.zshrc
 ln -s $DOTFILES/zsh/zshrc $HOME/.zshrc
 
+# Zsh Custom Plugins
+rm -rf $HOME/.oh-my-zsh/custom/plugins
+ln -s $DOTFILES/zsh/plugins $HOME/.oh-my-zsh/custom/plugins
+
 # tmux
 rm -rf $HOME/.tmux.conf
 ln -s $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf

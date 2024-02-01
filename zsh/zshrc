@@ -27,6 +27,7 @@ plugins=(
     httpie
     rsync
     tmux
+    dotfiles-reminder
     z
 )
 
