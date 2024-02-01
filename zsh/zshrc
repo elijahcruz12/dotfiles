@@ -47,6 +47,8 @@ path=(
     $HOME/.cargo/bin
     $HOME/nvim-linux64/bin
     ./vendor/bin
+    /usr/local/go/bin
+    $HOME/.bun/bin
     $path
 )
 
@@ -156,14 +158,17 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # These aliases are for my nodejs workflow
 alias nd="npm run dev"
-alias ns="npm run start"
-alias nb="npm run build"
-alias nt="npm run test"
-alias ni="npm install"
-alias nis="npm install --save"
-alias nid="npm install --save-dev"
 
 # I add "cl" as an alias for clear because it just feels 10x  faster to clear
 alias cl="clear"
 
 # vim: nospell
+alias le="php leaf"
+
+alias AWS_ACCESS_KEY_ID="AKIA42MKHEVW5XKDB3FE"
+alias AWS_SECRET_ACCESS_KEY="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"
+alias dep="vendor/bin/dep"
+
+export ANDROID_HOME="/home/elijahcruz/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+PATH=$PATH:$HOME/.local/bin
