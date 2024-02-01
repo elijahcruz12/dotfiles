@@ -165,8 +165,6 @@ alias cl="clear"
 # vim: nospell
 alias le="php leaf"
 
-alias AWS_ACCESS_KEY_ID="AKIA42MKHEVW5XKDB3FE"
-alias AWS_SECRET_ACCESS_KEY="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"
 alias dep="vendor/bin/dep"
 
 export ANDROID_HOME="/home/elijahcruz/Android/Sdk"
