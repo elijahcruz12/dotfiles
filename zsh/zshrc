@@ -171,3 +171,6 @@ alias dep="vendor/bin/dep"
 export ANDROID_HOME="/home/elijahcruz/Android/Sdk"
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 PATH=$PATH:$HOME/.local/bin
+alias python="python3"
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
